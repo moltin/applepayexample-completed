@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A089F8C733F39805AEF266 /* Pods_ApplePayMoltin_StarterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D17DFBB4399ABB821534D17 /* Pods_ApplePayMoltin_StarterUITests.framework */; };
+		83E8FA75ECAB71825E318E65 /* Pods_ApplePayMoltin_Starter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CE7C67E849ECE5AD1627AA /* Pods_ApplePayMoltin_Starter.framework */; };
+		985341B220F939640080A13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985341B120F939640080A13E /* AppDelegate.swift */; };
+		985341B720F939640080A13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985341B520F939640080A13E /* Main.storyboard */; };
+		985341B920F939650080A13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985341B820F939650080A13E /* Assets.xcassets */; };
+		985341BC20F939650080A13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985341BA20F939650080A13E /* LaunchScreen.storyboard */; };
+		985341C720F939650080A13E /* ApplePayMoltin_StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985341C620F939650080A13E /* ApplePayMoltin_StarterTests.swift */; };
+		985341D220F939650080A13E /* ApplePayMoltin_StarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985341D120F939650080A13E /* ApplePayMoltin_StarterUITests.swift */; };
+		985341E020F939A80080A13E /* MoltinProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985341DF20F939A80080A13E /* MoltinProductsViewController.swift */; };
+		985341E220F939D20080A13E /* BuyProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985341E120F939D20080A13E /* BuyProductViewController.swift */; };
+		985341E720F93BE70080A13E /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985341E520F93BE70080A13E /* ProductsTableViewCell.swift */; };
+		985341E820F93BE70080A13E /* ProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 985341E620F93BE70080A13E /* ProductsTableViewCell.xib */; };
+		D7FFD14B0C1515617F65F577 /* Pods_ApplePayMoltin_StarterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0558408B98C6F355A96A48BA /* Pods_ApplePayMoltin_StarterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		985341C320F939650080A13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 985341A620F939640080A13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985341AD20F939640080A13E;
+			remoteInfo = "ApplePayMoltin-Starter";
+		};
+		985341CE20F939650080A13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 985341A620F939640080A13E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 985341AD20F939640080A13E;
+			remoteInfo = "ApplePayMoltin-Starter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0558408B98C6F355A96A48BA /* Pods_ApplePayMoltin_StarterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplePayMoltin_StarterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F71F3E0ED6C17FA7EF438A2 /* Pods-ApplePayMoltin-Starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePayMoltin-Starter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePayMoltin-Starter/Pods-ApplePayMoltin-Starter.debug.xcconfig"; sourceTree = "<group>"; };
+		4D17DFBB4399ABB821534D17 /* Pods_ApplePayMoltin_StarterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplePayMoltin_StarterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A10F00F222F5F8750E8F11 /* Pods-ApplePayMoltin-StarterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePayMoltin-StarterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePayMoltin-StarterUITests/Pods-ApplePayMoltin-StarterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		985341AE20F939640080A13E /* ApplePayMoltin-Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApplePayMoltin-Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		985341B120F939640080A13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		985341B620F939640080A13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		985341B820F939650080A13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		985341BB20F939650080A13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		985341BD20F939650080A13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985341C220F939650080A13E /* ApplePayMoltin-StarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApplePayMoltin-StarterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		985341C620F939650080A13E /* ApplePayMoltin_StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayMoltin_StarterTests.swift; sourceTree = "<group>"; };
+		985341C820F939650080A13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985341CD20F939650080A13E /* ApplePayMoltin-StarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApplePayMoltin-StarterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		985341D120F939650080A13E /* ApplePayMoltin_StarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayMoltin_StarterUITests.swift; sourceTree = "<group>"; };
+		985341D320F939650080A13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985341DF20F939A80080A13E /* MoltinProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoltinProductsViewController.swift; sourceTree = "<group>"; };
+		985341E120F939D20080A13E /* BuyProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyProductViewController.swift; sourceTree = "<group>"; };
+		985341E520F93BE70080A13E /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		985341E620F93BE70080A13E /* ProductsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewCell.xib; sourceTree = "<group>"; };
+		A55CC8CC581DA8C87579E0A4 /* Pods-ApplePayMoltin-StarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePayMoltin-StarterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePayMoltin-StarterTests/Pods-ApplePayMoltin-StarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D05B62EF7C340F1AA14D64DF /* Pods-ApplePayMoltin-Starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePayMoltin-Starter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePayMoltin-Starter/Pods-ApplePayMoltin-Starter.release.xcconfig"; sourceTree = "<group>"; };
+		D717E879B5B56E4C86A67F17 /* Pods-ApplePayMoltin-StarterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePayMoltin-StarterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePayMoltin-StarterUITests/Pods-ApplePayMoltin-StarterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CE7C67E849ECE5AD1627AA /* Pods_ApplePayMoltin_Starter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApplePayMoltin_Starter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C37C3068D0EC41177BAFA /* Pods-ApplePayMoltin-StarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApplePayMoltin-StarterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApplePayMoltin-StarterTests/Pods-ApplePayMoltin-StarterTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		985341AB20F939640080A13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E8FA75ECAB71825E318E65 /* Pods_ApplePayMoltin_Starter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985341BF20F939650080A13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFD14B0C1515617F65F577 /* Pods_ApplePayMoltin_StarterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985341CA20F939650080A13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A089F8C733F39805AEF266 /* Pods_ApplePayMoltin_StarterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614EAE3B5833157A30107C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE7C67E849ECE5AD1627AA /* Pods_ApplePayMoltin_Starter.framework */,
+				0558408B98C6F355A96A48BA /* Pods_ApplePayMoltin_StarterTests.framework */,
+				4D17DFBB4399ABB821534D17 /* Pods_ApplePayMoltin_StarterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B17404AAF9173BEF32383C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F71F3E0ED6C17FA7EF438A2 /* Pods-ApplePayMoltin-Starter.debug.xcconfig */,
+				D05B62EF7C340F1AA14D64DF /* Pods-ApplePayMoltin-Starter.release.xcconfig */,
+				A55CC8CC581DA8C87579E0A4 /* Pods-ApplePayMoltin-StarterTests.debug.xcconfig */,
+				ED4C37C3068D0EC41177BAFA /* Pods-ApplePayMoltin-StarterTests.release.xcconfig */,
+				D717E879B5B56E4C86A67F17 /* Pods-ApplePayMoltin-StarterUITests.debug.xcconfig */,
+				54A10F00F222F5F8750E8F11 /* Pods-ApplePayMoltin-StarterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		985341A520F939640080A13E = {
+			isa = PBXGroup;
+			children = (
+				985341B020F939640080A13E /* ApplePayMoltin-Starter */,
+				985341C520F939650080A13E /* ApplePayMoltin-StarterTests */,
+				985341D020F939650080A13E /* ApplePayMoltin-StarterUITests */,
+				985341AF20F939640080A13E /* Products */,
+				7B17404AAF9173BEF32383C8 /* Pods */,
+				614EAE3B5833157A30107C4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		985341AF20F939640080A13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				985341AE20F939640080A13E /* ApplePayMoltin-Starter.app */,
+				985341C220F939650080A13E /* ApplePayMoltin-StarterTests.xctest */,
+				985341CD20F939650080A13E /* ApplePayMoltin-StarterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		985341B020F939640080A13E /* ApplePayMoltin-Starter */ = {
+			isa = PBXGroup;
+			children = (
+				985341B120F939640080A13E /* AppDelegate.swift */,
+				985341DF20F939A80080A13E /* MoltinProductsViewController.swift */,
+				985341E520F93BE70080A13E /* ProductsTableViewCell.swift */,
+				985341E620F93BE70080A13E /* ProductsTableViewCell.xib */,
+				985341E120F939D20080A13E /* BuyProductViewController.swift */,
+				985341B520F939640080A13E /* Main.storyboard */,
+				985341B820F939650080A13E /* Assets.xcassets */,
+				985341BA20F939650080A13E /* LaunchScreen.storyboard */,
+				985341BD20F939650080A13E /* Info.plist */,
+			);
+			path = "ApplePayMoltin-Starter";
+			sourceTree = "<group>";
+		};
+		985341C520F939650080A13E /* ApplePayMoltin-StarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				985341C620F939650080A13E /* ApplePayMoltin_StarterTests.swift */,
+				985341C820F939650080A13E /* Info.plist */,
+			);
+			path = "ApplePayMoltin-StarterTests";
+			sourceTree = "<group>";
+		};
+		985341D020F939650080A13E /* ApplePayMoltin-StarterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				985341D120F939650080A13E /* ApplePayMoltin_StarterUITests.swift */,
+				985341D320F939650080A13E /* Info.plist */,
+			);
+			path = "ApplePayMoltin-StarterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		985341AD20F939640080A13E /* ApplePayMoltin-Starter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985341D620F939650080A13E /* Build configuration list for PBXNativeTarget "ApplePayMoltin-Starter" */;
+			buildPhases = (
+				249D58E06874C9DD27000CAA /* [CP] Check Pods Manifest.lock */,
+				985341AA20F939640080A13E /* Sources */,
+				985341AB20F939640080A13E /* Frameworks */,
+				985341AC20F939640080A13E /* Resources */,
+				632EE266A235BEDC31620B81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ApplePayMoltin-Starter";
+			productName = "ApplePayMoltin-Starter";
+			productReference = 985341AE20F939640080A13E /* ApplePayMoltin-Starter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		985341C120F939650080A13E /* ApplePayMoltin-StarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985341D920F939650080A13E /* Build configuration list for PBXNativeTarget "ApplePayMoltin-StarterTests" */;
+			buildPhases = (
+				8EA214AEB5B18C166BAC76F2 /* [CP] Check Pods Manifest.lock */,
+				985341BE20F939650080A13E /* Sources */,
+				985341BF20F939650080A13E /* Frameworks */,
+				985341C020F939650080A13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				985341C420F939650080A13E /* PBXTargetDependency */,
+			);
+			name = "ApplePayMoltin-StarterTests";
+			productName = "ApplePayMoltin-StarterTests";
+			productReference = 985341C220F939650080A13E /* ApplePayMoltin-StarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		985341CC20F939650080A13E /* ApplePayMoltin-StarterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985341DC20F939650080A13E /* Build configuration list for PBXNativeTarget "ApplePayMoltin-StarterUITests" */;
+			buildPhases = (
+				D294825CB2907D3D115C7E7F /* [CP] Check Pods Manifest.lock */,
+				985341C920F939650080A13E /* Sources */,
+				985341CA20F939650080A13E /* Frameworks */,
+				985341CB20F939650080A13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				985341CF20F939650080A13E /* PBXTargetDependency */,
+			);
+			name = "ApplePayMoltin-StarterUITests";
+			productName = "ApplePayMoltin-StarterUITests";
+			productReference = 985341CD20F939650080A13E /* ApplePayMoltin-StarterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		985341A620F939640080A13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Moltin;
+				TargetAttributes = {
+					985341AD20F939640080A13E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					985341C120F939650080A13E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 985341AD20F939640080A13E;
+					};
+					985341CC20F939650080A13E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 985341AD20F939640080A13E;
+					};
+				};
+			};
+			buildConfigurationList = 985341A920F939640080A13E /* Build configuration list for PBXProject "ApplePayMoltin-Starter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 985341A520F939640080A13E;
+			productRefGroup = 985341AF20F939640080A13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				985341AD20F939640080A13E /* ApplePayMoltin-Starter */,
+				985341C120F939650080A13E /* ApplePayMoltin-StarterTests */,
+				985341CC20F939650080A13E /* ApplePayMoltin-StarterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		985341AC20F939640080A13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985341BC20F939650080A13E /* LaunchScreen.storyboard in Resources */,
+				985341E820F93BE70080A13E /* ProductsTableViewCell.xib in Resources */,
+				985341B920F939650080A13E /* Assets.xcassets in Resources */,
+				985341B720F939640080A13E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985341C020F939650080A13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985341CB20F939650080A13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249D58E06874C9DD27000CAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApplePayMoltin-Starter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632EE266A235BEDC31620B81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ApplePayMoltin-Starter/Pods-ApplePayMoltin-Starter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Moltin/moltin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/moltin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApplePayMoltin-Starter/Pods-ApplePayMoltin-Starter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA214AEB5B18C166BAC76F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApplePayMoltin-StarterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D294825CB2907D3D115C7E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApplePayMoltin-StarterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		985341AA20F939640080A13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985341E020F939A80080A13E /* MoltinProductsViewController.swift in Sources */,
+				985341E720F93BE70080A13E /* ProductsTableViewCell.swift in Sources */,
+				985341E220F939D20080A13E /* BuyProductViewController.swift in Sources */,
+				985341B220F939640080A13E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985341BE20F939650080A13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985341C720F939650080A13E /* ApplePayMoltin_StarterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985341C920F939650080A13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985341D220F939650080A13E /* ApplePayMoltin_StarterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		985341C420F939650080A13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 985341AD20F939640080A13E /* ApplePayMoltin-Starter */;
+			targetProxy = 985341C320F939650080A13E /* PBXContainerItemProxy */;
+		};
+		985341CF20F939650080A13E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 985341AD20F939640080A13E /* ApplePayMoltin-Starter */;
+			targetProxy = 985341CE20F939650080A13E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		985341B520F939640080A13E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985341B620F939640080A13E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		985341BA20F939650080A13E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				985341BB20F939650080A13E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		985341D420F939650080A13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		985341D520F939650080A13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		985341D720F939650080A13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F71F3E0ED6C17FA7EF438A2 /* Pods-ApplePayMoltin-Starter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = "ApplePayMoltin-Starter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moltin.ApplePayMoltin-Starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		985341D820F939650080A13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05B62EF7C340F1AA14D64DF /* Pods-ApplePayMoltin-Starter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = "ApplePayMoltin-Starter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moltin.ApplePayMoltin-Starter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		985341DA20F939650080A13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55CC8CC581DA8C87579E0A4 /* Pods-ApplePayMoltin-StarterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = "ApplePayMoltin-StarterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moltin.ApplePayMoltin-StarterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePayMoltin-Starter.app/ApplePayMoltin-Starter";
+			};
+			name = Debug;
+		};
+		985341DB20F939650080A13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4C37C3068D0EC41177BAFA /* Pods-ApplePayMoltin-StarterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = "ApplePayMoltin-StarterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moltin.ApplePayMoltin-StarterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePayMoltin-Starter.app/ApplePayMoltin-Starter";
+			};
+			name = Release;
+		};
+		985341DD20F939650080A13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D717E879B5B56E4C86A67F17 /* Pods-ApplePayMoltin-StarterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = "ApplePayMoltin-StarterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moltin.ApplePayMoltin-StarterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ApplePayMoltin-Starter";
+			};
+			name = Debug;
+		};
+		985341DE20F939650080A13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A10F00F222F5F8750E8F11 /* Pods-ApplePayMoltin-StarterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YK4HSQ4X66;
+				INFOPLIST_FILE = "ApplePayMoltin-StarterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "moltin.ApplePayMoltin-StarterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ApplePayMoltin-Starter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		985341A920F939640080A13E /* Build configuration list for PBXProject "ApplePayMoltin-Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985341D420F939650080A13E /* Debug */,
+				985341D520F939650080A13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985341D620F939650080A13E /* Build configuration list for PBXNativeTarget "ApplePayMoltin-Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985341D720F939650080A13E /* Debug */,
+				985341D820F939650080A13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985341D920F939650080A13E /* Build configuration list for PBXNativeTarget "ApplePayMoltin-StarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985341DA20F939650080A13E /* Debug */,
+				985341DB20F939650080A13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985341DC20F939650080A13E /* Build configuration list for PBXNativeTarget "ApplePayMoltin-StarterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				985341DD20F939650080A13E /* Debug */,
+				985341DE20F939650080A13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 985341A620F939640080A13E /* Project object */;
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Products-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Products" id="BYZ-38-t0r" customClass="MoltinProductsViewController" customModule="ApplePayMoltin_Starter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8XW-Ii-avb">
+                                <rect key="frame" x="0.0" y="10" width="375" height="657"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="lJg-PT-tEJ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ieG-od-q5L"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8XW-Ii-avb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="2Me-WF-xjy"/>
+                            <constraint firstItem="8XW-Ii-avb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ETf-vd-eoT"/>
+                            <constraint firstItem="8XW-Ii-avb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pNT-dS-9Q9"/>
+                            <constraint firstItem="8XW-Ii-avb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xLn-rO-qMA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="8XW-Ii-avb" id="NPW-MF-kgQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
+        </scene>
+        <!--Buy Product View Controller-->
+        <scene sceneID="FsV-Zf-bOm">
+            <objects>
+                <viewController storyboardIdentifier="buyview" id="7F6-8l-gye" customClass="BuyProductViewController" customModule="ApplePayMoltin_Starter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nbn-Xw-5yH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rcs-vG-572">
+                                <rect key="frame" x="16" y="60" width="343" height="293"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJI-am-aYo">
+                                <rect key="frame" x="38" y="388" width="300" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="Cy8-ZQ-2sC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-sD-smE">
+                                <rect key="frame" x="30" y="550" width="38.5" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj8-ns-Per">
+                                <rect key="frame" x="228" y="550" width="109" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="hAE-hl-Ekl"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="applePayPressed:" destination="7F6-8l-gye" eventType="touchUpInside" id="paa-LA-88y"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="89Q-Mx-9nI">
+                                <rect key="frame" x="0.0" y="7" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Buy Now" id="DDD-El-IQa">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="kr5-Yf-8Mg">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="showDetail" id="ayV-Xf-yMc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rcs-vG-572" firstAttribute="top" secondItem="4gc-yp-Ses" secondAttribute="top" constant="40" id="04E-Aj-PEG"/>
+                            <constraint firstItem="oj8-ns-Per" firstAttribute="leading" secondItem="Zav-sD-smE" secondAttribute="trailing" constant="159.5" id="0bI-xC-eov"/>
+                            <constraint firstItem="4gc-yp-Ses" firstAttribute="bottom" secondItem="Zav-sD-smE" secondAttribute="bottom" constant="52" id="G7d-oz-65s"/>
+                            <constraint firstItem="rcs-vG-572" firstAttribute="trailing" secondItem="nbn-Xw-5yH" secondAttribute="trailingMargin" id="S1f-s9-j9o"/>
+                            <constraint firstItem="Zav-sD-smE" firstAttribute="top" secondItem="oj8-ns-Per" secondAttribute="top" id="SUm-i7-uUZ"/>
+                            <constraint firstItem="Zav-sD-smE" firstAttribute="leading" secondItem="4gc-yp-Ses" secondAttribute="leading" constant="30" id="fIV-CZ-TZH"/>
+                            <constraint firstItem="pJI-am-aYo" firstAttribute="top" secondItem="rcs-vG-572" secondAttribute="bottom" constant="35" id="gCX-3v-kOD"/>
+                            <constraint firstItem="pJI-am-aYo" firstAttribute="leading" secondItem="4gc-yp-Ses" secondAttribute="leading" constant="38" id="hCV-Z1-t6Y"/>
+                            <constraint firstItem="rcs-vG-572" firstAttribute="centerX" secondItem="pJI-am-aYo" secondAttribute="centerX" id="j69-sE-XLa"/>
+                            <constraint firstItem="Zav-sD-smE" firstAttribute="top" secondItem="pJI-am-aYo" secondAttribute="bottom" constant="43" id="k5s-3X-LIE"/>
+                            <constraint firstItem="4gc-yp-Ses" firstAttribute="bottom" secondItem="oj8-ns-Per" secondAttribute="bottom" constant="70" id="uPj-Rz-6FH"/>
+                            <constraint firstItem="rcs-vG-572" firstAttribute="leading" secondItem="nbn-Xw-5yH" secondAttribute="leadingMargin" id="wRm-5P-7RD"/>
+                            <constraint firstItem="4gc-yp-Ses" firstAttribute="trailing" secondItem="oj8-ns-Per" secondAttribute="trailing" constant="38" id="xPs-0C-SIt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4gc-yp-Ses"/>
+                    </view>
+                    <connections>
+                        <outlet property="applePayButton" destination="oj8-ns-Per" id="pFR-lx-Wwu"/>
+                        <outlet property="productDecLabel" destination="pJI-am-aYo" id="V1B-cq-RPQ"/>
+                        <outlet property="productImage" destination="rcs-vG-572" id="zsm-d0-Z1V"/>
+                        <outlet property="productPriceLabel" destination="Zav-sD-smE" id="U70-Jq-DDs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWw-el-syw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="139.880059970015"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_ApplePayMoltin_Starter {
+  umbrella header "Pods-ApplePayMoltin-Starter-umbrella.h"
+
+  export *
+  module * { export * }
+}
