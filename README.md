@@ -1,2 +1,3 @@
-# applepayexample-starter
-This is the a starter project for the apple pay demo guide.
+# applepayexample-completed
+This is the a completed project for the apple pay demo guide.
+https://developers.moltin.com/guides/apple-google-pay
