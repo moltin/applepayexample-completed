@@ -56,7 +56,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rcs-vG-572">
                                 <rect key="frame" x="16" y="60" width="343" height="293"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJI-am-aYo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJI-am-aYo">
                                 <rect key="frame" x="38" y="388" width="300" height="119"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="119" id="Cy8-ZQ-2sC"/>
@@ -66,17 +66,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-sD-smE">
-                                <rect key="frame" x="30" y="550" width="38.5" height="65"/>
+                                <rect key="frame" x="30" y="550" width="39" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj8-ns-Per">
-                                <rect key="frame" x="228" y="550" width="109" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj8-ns-Per">
+                                <rect key="frame" x="250" y="550" width="87" height="47"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="hAE-hl-Ekl"/>
+                                    <constraint firstAttribute="width" constant="87" id="Frh-jh-34n"/>
+                                    <constraint firstAttribute="height" constant="47" id="JRJ-Y0-Ogx"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="ApplePay Button" image="Apple_Pay_logo"/>
                                 <connections>
                                     <action selector="applePayPressed:" destination="7F6-8l-gye" eventType="touchUpInside" id="paa-LA-88y"/>
                                 </connections>
@@ -98,18 +99,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rcs-vG-572" firstAttribute="top" secondItem="4gc-yp-Ses" secondAttribute="top" constant="40" id="04E-Aj-PEG"/>
-                            <constraint firstItem="oj8-ns-Per" firstAttribute="leading" secondItem="Zav-sD-smE" secondAttribute="trailing" constant="159.5" id="0bI-xC-eov"/>
                             <constraint firstItem="4gc-yp-Ses" firstAttribute="bottom" secondItem="Zav-sD-smE" secondAttribute="bottom" constant="52" id="G7d-oz-65s"/>
                             <constraint firstItem="rcs-vG-572" firstAttribute="trailing" secondItem="nbn-Xw-5yH" secondAttribute="trailingMargin" id="S1f-s9-j9o"/>
-                            <constraint firstItem="Zav-sD-smE" firstAttribute="top" secondItem="oj8-ns-Per" secondAttribute="top" id="SUm-i7-uUZ"/>
+                            <constraint firstItem="4gc-yp-Ses" firstAttribute="bottom" secondItem="oj8-ns-Per" secondAttribute="bottom" constant="70" id="bJa-7J-1vD"/>
+                            <constraint firstItem="4gc-yp-Ses" firstAttribute="trailing" secondItem="oj8-ns-Per" secondAttribute="trailing" constant="38" id="erP-pZ-Lfi"/>
                             <constraint firstItem="Zav-sD-smE" firstAttribute="leading" secondItem="4gc-yp-Ses" secondAttribute="leading" constant="30" id="fIV-CZ-TZH"/>
                             <constraint firstItem="pJI-am-aYo" firstAttribute="top" secondItem="rcs-vG-572" secondAttribute="bottom" constant="35" id="gCX-3v-kOD"/>
                             <constraint firstItem="pJI-am-aYo" firstAttribute="leading" secondItem="4gc-yp-Ses" secondAttribute="leading" constant="38" id="hCV-Z1-t6Y"/>
                             <constraint firstItem="rcs-vG-572" firstAttribute="centerX" secondItem="pJI-am-aYo" secondAttribute="centerX" id="j69-sE-XLa"/>
                             <constraint firstItem="Zav-sD-smE" firstAttribute="top" secondItem="pJI-am-aYo" secondAttribute="bottom" constant="43" id="k5s-3X-LIE"/>
-                            <constraint firstItem="4gc-yp-Ses" firstAttribute="bottom" secondItem="oj8-ns-Per" secondAttribute="bottom" constant="70" id="uPj-Rz-6FH"/>
                             <constraint firstItem="rcs-vG-572" firstAttribute="leading" secondItem="nbn-Xw-5yH" secondAttribute="leadingMargin" id="wRm-5P-7RD"/>
-                            <constraint firstItem="4gc-yp-Ses" firstAttribute="trailing" secondItem="oj8-ns-Per" secondAttribute="trailing" constant="38" id="xPs-0C-SIt"/>
+                            <constraint firstItem="oj8-ns-Per" firstAttribute="top" secondItem="Zav-sD-smE" secondAttribute="top" id="wmi-QT-AFh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4gc-yp-Ses"/>
                     </view>
@@ -125,4 +125,7 @@
             <point key="canvasLocation" x="948" y="139.880059970015"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Apple_Pay_logo" width="59" height="24"/>
+    </resources>
 </document>
